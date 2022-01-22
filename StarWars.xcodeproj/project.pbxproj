@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91D63FB2279C5D36003D9C21 /* StarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D63FB1279C5D36003D9C21 /* StarWarsApp.swift */; };
-		91D63FB4279C5D36003D9C21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D63FB3279C5D36003D9C21 /* ContentView.swift */; };
-		91D63FB6279C5D37003D9C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D63FB5279C5D37003D9C21 /* Assets.xcassets */; };
-		91D63FB9279C5D37003D9C21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D63FB8279C5D37003D9C21 /* Preview Assets.xcassets */; };
-		91D63FBB279C5D37003D9C21 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D63FBA279C5D37003D9C21 /* Persistence.swift */; };
-		91D63FBE279C5D37003D9C21 /* StarWars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91D63FBC279C5D37003D9C21 /* StarWars.xcdatamodeld */; };
 		91D63FC8279C5D37003D9C21 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D63FC7279C5D37003D9C21 /* StarWarsTests.swift */; };
 		91D63FD2279C5D37003D9C21 /* StarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D63FD1279C5D37003D9C21 /* StarWarsUITests.swift */; };
 		91D63FD4279C5D37003D9C21 /* StarWarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D63FD3279C5D37003D9C21 /* StarWarsUITestsLaunchTests.swift */; };
+		91D6401C279C77EA003D9C21 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64011279C77EA003D9C21 /* Persistence.swift */; };
+		91D6401D279C77EA003D9C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D64013279C77EA003D9C21 /* Assets.xcassets */; };
+		91D6401E279C77EA003D9C21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D64015279C77EA003D9C21 /* Preview Assets.xcassets */; };
+		91D64020279C77EA003D9C21 /* StarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64017279C77EA003D9C21 /* StarWarsApp.swift */; };
+		91D64021279C77EA003D9C21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64018279C77EA003D9C21 /* ContentView.swift */; };
+		91D64022279C77EA003D9C21 /* StarWars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91D6401A279C77EA003D9C21 /* StarWars.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,17 +37,17 @@
 
 /* Begin PBXFileReference section */
 		91D63FAE279C5D36003D9C21 /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		91D63FB1279C5D36003D9C21 /* StarWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsApp.swift; sourceTree = "<group>"; };
-		91D63FB3279C5D36003D9C21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		91D63FB5279C5D37003D9C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91D63FB8279C5D37003D9C21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		91D63FBA279C5D37003D9C21 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		91D63FBD279C5D37003D9C21 /* StarWars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWars.xcdatamodel; sourceTree = "<group>"; };
 		91D63FC3279C5D37003D9C21 /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D63FC7279C5D37003D9C21 /* StarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsTests.swift; sourceTree = "<group>"; };
 		91D63FCD279C5D37003D9C21 /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D63FD1279C5D37003D9C21 /* StarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITests.swift; sourceTree = "<group>"; };
 		91D63FD3279C5D37003D9C21 /* StarWarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91D64011279C77EA003D9C21 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		91D64013279C77EA003D9C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D64015279C77EA003D9C21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91D64017279C77EA003D9C21 /* StarWarsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsApp.swift; sourceTree = "<group>"; };
+		91D64018279C77EA003D9C21 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91D6401B279C77EA003D9C21 /* StarWars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWars.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		91D63FA5279C5D36003D9C21 = {
 			isa = PBXGroup;
 			children = (
-				91D63FB0279C5D36003D9C21 /* StarWars */,
+				91D6400F279C77EA003D9C21 /* StarWars */,
 				91D63FC6279C5D37003D9C21 /* StarWarsTests */,
 				91D63FD0279C5D37003D9C21 /* StarWarsUITests */,
 				91D63FAF279C5D36003D9C21 /* Products */,
@@ -93,27 +93,6 @@
 				91D63FCD279C5D37003D9C21 /* StarWarsUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		91D63FB0279C5D36003D9C21 /* StarWars */ = {
-			isa = PBXGroup;
-			children = (
-				91D63FB1279C5D36003D9C21 /* StarWarsApp.swift */,
-				91D63FB3279C5D36003D9C21 /* ContentView.swift */,
-				91D63FB5279C5D37003D9C21 /* Assets.xcassets */,
-				91D63FBA279C5D37003D9C21 /* Persistence.swift */,
-				91D63FBC279C5D37003D9C21 /* StarWars.xcdatamodeld */,
-				91D63FB7279C5D37003D9C21 /* Preview Content */,
-			);
-			path = StarWars;
-			sourceTree = "<group>";
-		};
-		91D63FB7279C5D37003D9C21 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				91D63FB8279C5D37003D9C21 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		91D63FC6279C5D37003D9C21 /* StarWarsTests */ = {
@@ -131,6 +110,51 @@
 				91D63FD3279C5D37003D9C21 /* StarWarsUITestsLaunchTests.swift */,
 			);
 			path = StarWarsUITests;
+			sourceTree = "<group>";
+		};
+		91D6400F279C77EA003D9C21 /* StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				91D64010279C77EA003D9C21 /* AppSpecific */,
+				91D64019279C77EA003D9C21 /* Data */,
+			);
+			path = StarWars;
+			sourceTree = "<group>";
+		};
+		91D64010279C77EA003D9C21 /* AppSpecific */ = {
+			isa = PBXGroup;
+			children = (
+				91D64011279C77EA003D9C21 /* Persistence.swift */,
+				91D64012279C77EA003D9C21 /* Resources */,
+				91D64017279C77EA003D9C21 /* StarWarsApp.swift */,
+				91D64018279C77EA003D9C21 /* ContentView.swift */,
+			);
+			path = AppSpecific;
+			sourceTree = "<group>";
+		};
+		91D64012279C77EA003D9C21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91D64013279C77EA003D9C21 /* Assets.xcassets */,
+				91D64014279C77EA003D9C21 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		91D64014279C77EA003D9C21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91D64015279C77EA003D9C21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91D64019279C77EA003D9C21 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				91D6401A279C77EA003D9C21 /* StarWars.xcdatamodeld */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D63FB9279C5D37003D9C21 /* Preview Assets.xcassets in Resources */,
-				91D63FB6279C5D37003D9C21 /* Assets.xcassets in Resources */,
+				91D6401E279C77EA003D9C21 /* Preview Assets.xcassets in Resources */,
+				91D6401D279C77EA003D9C21 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D63FBE279C5D37003D9C21 /* StarWars.xcdatamodeld in Sources */,
-				91D63FBB279C5D37003D9C21 /* Persistence.swift in Sources */,
-				91D63FB4279C5D36003D9C21 /* ContentView.swift in Sources */,
-				91D63FB2279C5D36003D9C21 /* StarWarsApp.swift in Sources */,
+				91D64022279C77EA003D9C21 /* StarWars.xcdatamodeld in Sources */,
+				91D64020279C77EA003D9C21 /* StarWarsApp.swift in Sources */,
+				91D6401C279C77EA003D9C21 /* Persistence.swift in Sources */,
+				91D64021279C77EA003D9C21 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +450,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StarWars/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/StarWars/AppSpecific/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StarWars/Info.plist;
+				INFOPLIST_FILE = /Users/devashreeks/Downloads/StarWarsApp/StarWars/StarWars/AppSpecific/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -456,10 +480,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StarWars/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/StarWars/AppSpecific/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StarWars/Info.plist;
+				INFOPLIST_FILE = /Users/devashreeks/Downloads/StarWarsApp/StarWars/StarWars/AppSpecific/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -593,12 +617,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		91D63FBC279C5D37003D9C21 /* StarWars.xcdatamodeld */ = {
+		91D6401A279C77EA003D9C21 /* StarWars.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				91D63FBD279C5D37003D9C21 /* StarWars.xcdatamodel */,
+				91D6401B279C77EA003D9C21 /* StarWars.xcdatamodel */,
 			);
-			currentVersion = 91D63FBD279C5D37003D9C21 /* StarWars.xcdatamodel */;
+			currentVersion = 91D6401B279C77EA003D9C21 /* StarWars.xcdatamodel */;
 			path = StarWars.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
