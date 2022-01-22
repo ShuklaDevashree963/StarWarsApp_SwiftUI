@@ -14,8 +14,14 @@
 		91D6401D279C77EA003D9C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D64013279C77EA003D9C21 /* Assets.xcassets */; };
 		91D6401E279C77EA003D9C21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D64015279C77EA003D9C21 /* Preview Assets.xcassets */; };
 		91D64020279C77EA003D9C21 /* StarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64017279C77EA003D9C21 /* StarWarsApp.swift */; };
-		91D64021279C77EA003D9C21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64018279C77EA003D9C21 /* ContentView.swift */; };
 		91D64022279C77EA003D9C21 /* StarWars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91D6401A279C77EA003D9C21 /* StarWars.xcdatamodeld */; };
+		91D6402B279C81AA003D9C21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6402A279C81AA003D9C21 /* Constants.swift */; };
+		91D6402D279C8529003D9C21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6402C279C8529003D9C21 /* HomeView.swift */; };
+		91D6402F279C85A6003D9C21 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6402E279C85A6003D9C21 /* DateFormatter.swift */; };
+		91D64031279C86B2003D9C21 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64030279C86B2003D9C21 /* CardView.swift */; };
+		91D64033279C8767003D9C21 /* DetailCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64032279C8767003D9C21 /* DetailCardView.swift */; };
+		91D64035279C883C003D9C21 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64034279C883C003D9C21 /* Color.swift */; };
+		91D64037279C8856003D9C21 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64036279C8856003D9C21 /* Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +52,14 @@
 		91D64013279C77EA003D9C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D64015279C77EA003D9C21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91D64017279C77EA003D9C21 /* StarWarsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsApp.swift; sourceTree = "<group>"; };
-		91D64018279C77EA003D9C21 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91D6401B279C77EA003D9C21 /* StarWars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWars.xcdatamodel; sourceTree = "<group>"; };
+		91D6402A279C81AA003D9C21 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		91D6402C279C8529003D9C21 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		91D6402E279C85A6003D9C21 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		91D64030279C86B2003D9C21 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		91D64032279C8767003D9C21 /* DetailCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardView.swift; sourceTree = "<group>"; };
+		91D64034279C883C003D9C21 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		91D64036279C8856003D9C21 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +127,10 @@
 		91D6400F279C77EA003D9C21 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
+				91D64023279C7AE5003D9C21 /* Architecture */,
+				91D64027279C7AE5003D9C21 /* Helpers */,
 				91D64010279C77EA003D9C21 /* AppSpecific */,
-				91D64019279C77EA003D9C21 /* Data */,
+				91D64019279C77EA003D9C21 /* DataStore */,
 			);
 			path = StarWars;
 			sourceTree = "<group>";
@@ -124,10 +138,9 @@
 		91D64010279C77EA003D9C21 /* AppSpecific */ = {
 			isa = PBXGroup;
 			children = (
+				91D64017279C77EA003D9C21 /* StarWarsApp.swift */,
 				91D64011279C77EA003D9C21 /* Persistence.swift */,
 				91D64012279C77EA003D9C21 /* Resources */,
-				91D64017279C77EA003D9C21 /* StarWarsApp.swift */,
-				91D64018279C77EA003D9C21 /* ContentView.swift */,
 			);
 			path = AppSpecific;
 			sourceTree = "<group>";
@@ -149,12 +162,73 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		91D64019279C77EA003D9C21 /* Data */ = {
+		91D64019279C77EA003D9C21 /* DataStore */ = {
 			isa = PBXGroup;
 			children = (
 				91D6401A279C77EA003D9C21 /* StarWars.xcdatamodeld */,
 			);
-			path = Data;
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		91D64023279C7AE5003D9C21 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				91D64024279C7AE5003D9C21 /* ViewModel */,
+				91D64025279C7AE5003D9C21 /* Model */,
+				91D64026279C7AE5003D9C21 /* View */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		91D64024279C7AE5003D9C21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		91D64025279C7AE5003D9C21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91D64026279C7AE5003D9C21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91D6402C279C8529003D9C21 /* HomeView.swift */,
+				91D64030279C86B2003D9C21 /* CardView.swift */,
+				91D64032279C8767003D9C21 /* DetailCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91D64027279C7AE5003D9C21 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				91D64029279C8199003D9C21 /* Constants */,
+				91D64028279C7AE5003D9C21 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		91D64028279C7AE5003D9C21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				91D6402E279C85A6003D9C21 /* DateFormatter.swift */,
+				91D64034279C883C003D9C21 /* Color.swift */,
+				91D64036279C8856003D9C21 /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		91D64029279C8199003D9C21 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				91D6402A279C81AA003D9C21 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,10 +361,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D64037279C8856003D9C21 /* Double.swift in Sources */,
+				91D64031279C86B2003D9C21 /* CardView.swift in Sources */,
+				91D6402F279C85A6003D9C21 /* DateFormatter.swift in Sources */,
+				91D6402B279C81AA003D9C21 /* Constants.swift in Sources */,
 				91D64022279C77EA003D9C21 /* StarWars.xcdatamodeld in Sources */,
 				91D64020279C77EA003D9C21 /* StarWarsApp.swift in Sources */,
+				91D6402D279C8529003D9C21 /* HomeView.swift in Sources */,
 				91D6401C279C77EA003D9C21 /* Persistence.swift in Sources */,
-				91D64021279C77EA003D9C21 /* ContentView.swift in Sources */,
+				91D64033279C8767003D9C21 /* DetailCardView.swift in Sources */,
+				91D64035279C883C003D9C21 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
