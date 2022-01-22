@@ -1,5 +1,5 @@
 //
-//  CardView.swift
+//  HomeCardView.swift
 //  StarWars
 //
 //  Created by Devashree KS on 23/01/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct CardView: View {
+struct HomeCardView: View {
    
     var body: some View {
         VStack(alignment: .center) {
@@ -24,17 +24,21 @@ struct CardView: View {
                 .padding()
                 .frame(height: 150)
         }
-        .background(StarWarsConstants.Colors.lightBackgroundColor)
         .cornerRadius(StarWarsConstants.cornerRadius)
+//        .background(StarWarsConstants.Colors.darkBackgroundColor)
+        .overlay(
+            RoundedRectangle(cornerRadius: StarWarsConstants.cornerRadius)
+                .stroke(StarWarsConstants.Colors.appThemeColor, lineWidth: 1)
+        )
     }
     
 }
 
 
-struct CardView_Previews: PreviewProvider {
+struct HomeCardView_Previews: PreviewProvider {
    
     static var previews: some View {
-        CardView()
+        HomeCardView()
     }
     
 }

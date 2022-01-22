@@ -16,12 +16,15 @@
 		91D64020279C77EA003D9C21 /* StarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64017279C77EA003D9C21 /* StarWarsApp.swift */; };
 		91D64022279C77EA003D9C21 /* StarWars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91D6401A279C77EA003D9C21 /* StarWars.xcdatamodeld */; };
 		91D6402B279C81AA003D9C21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6402A279C81AA003D9C21 /* Constants.swift */; };
-		91D6402D279C8529003D9C21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6402C279C8529003D9C21 /* HomeView.swift */; };
 		91D6402F279C85A6003D9C21 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6402E279C85A6003D9C21 /* DateFormatter.swift */; };
-		91D64031279C86B2003D9C21 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64030279C86B2003D9C21 /* CardView.swift */; };
-		91D64033279C8767003D9C21 /* DetailCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64032279C8767003D9C21 /* DetailCardView.swift */; };
 		91D64035279C883C003D9C21 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64034279C883C003D9C21 /* Color.swift */; };
 		91D64037279C8856003D9C21 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64036279C8856003D9C21 /* Double.swift */; };
+		91D6403F279C9BB4003D9C21 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6403A279C9BB4003D9C21 /* HomeCardView.swift */; };
+		91D64040279C9BB4003D9C21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6403B279C9BB4003D9C21 /* HomeView.swift */; };
+		91D64041279C9BB4003D9C21 /* DetailCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6403D279C9BB4003D9C21 /* DetailCardView.swift */; };
+		91D64043279CA0D3003D9C21 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64042279CA0D3003D9C21 /* DetailView.swift */; };
+		91D64046279CA5FC003D9C21 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64044279CA5FC003D9C21 /* ListView.swift */; };
+		91D64047279CA5FC003D9C21 /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D64045279CA5FC003D9C21 /* ListCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +57,15 @@
 		91D64017279C77EA003D9C21 /* StarWarsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsApp.swift; sourceTree = "<group>"; };
 		91D6401B279C77EA003D9C21 /* StarWars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWars.xcdatamodel; sourceTree = "<group>"; };
 		91D6402A279C81AA003D9C21 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		91D6402C279C8529003D9C21 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91D6402E279C85A6003D9C21 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
-		91D64030279C86B2003D9C21 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		91D64032279C8767003D9C21 /* DetailCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardView.swift; sourceTree = "<group>"; };
 		91D64034279C883C003D9C21 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		91D64036279C8856003D9C21 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		91D6403A279C9BB4003D9C21 /* HomeCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		91D6403B279C9BB4003D9C21 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		91D6403D279C9BB4003D9C21 /* DetailCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCardView.swift; sourceTree = "<group>"; };
+		91D64042279CA0D3003D9C21 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		91D64044279CA5FC003D9C21 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		91D64045279CA5FC003D9C21 /* ListCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,9 +179,9 @@
 		91D64023279C7AE5003D9C21 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				91D64038279C9BB4003D9C21 /* View */,
 				91D64024279C7AE5003D9C21 /* ViewModel */,
 				91D64025279C7AE5003D9C21 /* Model */,
-				91D64026279C7AE5003D9C21 /* View */,
 			);
 			path = Architecture;
 			sourceTree = "<group>";
@@ -192,16 +198,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		91D64026279C7AE5003D9C21 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				91D6402C279C8529003D9C21 /* HomeView.swift */,
-				91D64030279C86B2003D9C21 /* CardView.swift */,
-				91D64032279C8767003D9C21 /* DetailCardView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		91D64027279C7AE5003D9C21 /* Helpers */ = {
@@ -229,6 +225,43 @@
 				91D6402A279C81AA003D9C21 /* Constants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		91D64038279C9BB4003D9C21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91D64039279C9BB4003D9C21 /* Home */,
+				91D6403E279C9BB4003D9C21 /* List */,
+				91D6403C279C9BB4003D9C21 /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91D64039279C9BB4003D9C21 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				91D6403A279C9BB4003D9C21 /* HomeCardView.swift */,
+				91D6403B279C9BB4003D9C21 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		91D6403C279C9BB4003D9C21 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				91D6403D279C9BB4003D9C21 /* DetailCardView.swift */,
+				91D64042279CA0D3003D9C21 /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		91D6403E279C9BB4003D9C21 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				91D64045279CA5FC003D9C21 /* ListCardView.swift */,
+				91D64044279CA5FC003D9C21 /* ListView.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,15 +394,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D64047279CA5FC003D9C21 /* ListCardView.swift in Sources */,
+				91D64040279C9BB4003D9C21 /* HomeView.swift in Sources */,
 				91D64037279C8856003D9C21 /* Double.swift in Sources */,
-				91D64031279C86B2003D9C21 /* CardView.swift in Sources */,
 				91D6402F279C85A6003D9C21 /* DateFormatter.swift in Sources */,
+				91D64041279C9BB4003D9C21 /* DetailCardView.swift in Sources */,
 				91D6402B279C81AA003D9C21 /* Constants.swift in Sources */,
+				91D64043279CA0D3003D9C21 /* DetailView.swift in Sources */,
 				91D64022279C77EA003D9C21 /* StarWars.xcdatamodeld in Sources */,
 				91D64020279C77EA003D9C21 /* StarWarsApp.swift in Sources */,
-				91D6402D279C8529003D9C21 /* HomeView.swift in Sources */,
+				91D64046279CA5FC003D9C21 /* ListView.swift in Sources */,
 				91D6401C279C77EA003D9C21 /* Persistence.swift in Sources */,
-				91D64033279C8767003D9C21 /* DetailCardView.swift in Sources */,
+				91D6403F279C9BB4003D9C21 /* HomeCardView.swift in Sources */,
 				91D64035279C883C003D9C21 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
